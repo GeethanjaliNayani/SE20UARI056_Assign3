@@ -1,0 +1,20 @@
+The results are as follows, waiting time and turn around time respectively.
+FCFS: ([0, 20, 22, 24], [24, 23, 25, 36])
+SJF: ([22, 0, 2, 4], [46, 3, 5, 16])
+RR: ([18, 4, 4, 12], [42, 7, 7, 24])
+PS: ([19, 0, 38, 1], [43, 3, 41, 13]) 
+
+averaging these values independently:
+FCFS_WT: 16.5
+FCFS_TAT: 27.0
+
+SJF_WT: 7.0
+SJF_TAT: 17.5
+
+RR_WT: 9.5
+RR_TAT: 20.0
+
+PS_WT: 14.5
+PS_TAT: 25.0
+
+Comparing average waiting time and turn around time for different algorithms, it is evident that SJF(Shortest job first) algorithm performs well for the given question.
